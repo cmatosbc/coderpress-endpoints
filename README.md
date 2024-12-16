@@ -7,6 +7,14 @@ This package intends to provide a more straightforward way to add custom endpoin
 * Provide a port to add multiple custom endpoints without repeating code and sharing cache, middleware and variables within, including a dynamic endpoint generation
 * Offer common middlewares to handle common scenarios in REST API development
 
+## Installation
+
+Easily install the package using composer:
+
+```bash
+composer require coderpress/wp-coderpress-endpoints
+```
+
 # Basic Example
 
 The following example creates a very simple example endpoint to the rest API that comes with two middlewares attached (as \Closure objects). The first one modifies any passed parameter to "id = 123", which triggers the second middleware and returns a WP_REST_Response - this also prevents the cache to be done.
