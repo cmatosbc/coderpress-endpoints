@@ -1,0 +1,57 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHP
+*.log
+*.cache
+.php_cs.cache
+.phpunit.result.cache
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# WordPress specific
+*.sql
+*.sql.gz
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/backup-db/
+wp-content/backups/
+wp-content/blogs.dir/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node modules (if using build tools)
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build and dist directories
+/dist/
+/build/
+.sass-cache/
+
+# Testing
+/coverage/
+/tests/coverage/
+.phpunit.cache/
+
+# Operating System
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -1,0 +1,34 @@
+{
+    "name": "cmatosbc/wp-coderpress-endpoints",
+    "description": "Endpoints builder and manager for CoderPress",
+    "license": "gpl-3.0-or-later",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Carlos Matos",
+            "email": "carlosarturmatos1977@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "CoderPress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CoderPress\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "psr/simple-cache": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "brain/monkey": "^2.6",
+        "psr/http-server-handler": "^1.0"
+    }
+}
